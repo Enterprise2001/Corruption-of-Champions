@@ -75,7 +75,7 @@
 			}
 			else {
 				spe += 40;
-				outputText("The hellhound keeps his four eyes on you as he sniffs the ground where you were moments ago. He raises his heads back up and gives you a firey grin - He seems to have aquired you scent!  Running away will now be much more difficult...", false);
+				outputText("The hellhound keeps his four eyes on you as he sniffs the ground where you were moments ago. He raises his heads back up and gives you a fiery grin - He seems to have acquired you scent!  Running away will now be much more difficult...", false);
 			}
 			if(player.HP <= 0) {
 				doNext(endHpLoss);
